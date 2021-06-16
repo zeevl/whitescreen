@@ -5571,10 +5571,10 @@ react-is@^16.12.0, react-is@^16.13.0, react-is@^16.7.0, react-is@^16.8.1, react-
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-bugsee@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/react-native-bugsee/-/react-native-bugsee-2.4.0.tgz#a5268137aba6efa7d475a1c74b001d427b12e808"
-  integrity sha512-Qn2835MqwSOco6nhNmRbT9Fg2xHdtL+xeHJgfuNQJFyYbzL+NnPUUpBhnG+vYFZE5Z6v8FrJ6sCogVOMHGV6aQ==
+react-native-bugsee@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/react-native-bugsee/-/react-native-bugsee-2.4.3.tgz#40a5669ec25b5fb7a36936fb13a65f19d52728f3"
+  integrity sha512-Mwlio3JoWGwr8cvOR4hRMxMizo5WrBXT0goFA2WxzKFwNTsI9CMZG7NGzZoZOvoVqD1goB99sFKZ9BsXu8Cjmw==
   dependencies:
     stacktrace-parser "0.1.4"
 

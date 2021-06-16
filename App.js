@@ -151,7 +151,13 @@ const CameraNavigation = () => {
 };
 
 const App = () => {
-  Bugsee.launch('f0ac1aa9-3c4c-49b6-a5fa-5b8a833f7e45');
+  const bugseeLaunchOptions = new Bugsee.AndroidLaunchOptions();
+  bugseeLaunchOptions.videoEnabled = true;
+  bugseeLaunchOptions.videoMode = Bugsee.VideoMode.V3;
+  bugseeLaunchOptions.fallbackVideoMode = Bugsee.VideoMode.V2;
+  bugseeLaunchOptions.setCustomOption('forceVideoModeV3', true);
+
+  Bugsee.launch('f0ac1aa9-3c4c-49b6-a5fa-5b8a833f7e45', bugseeLaunchOptions);
 
   return (
     <NavigationContainer>
